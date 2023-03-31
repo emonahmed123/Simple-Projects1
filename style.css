@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,700;0,900;1,100&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.logo{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 33px;
+line-height: 30px;
+color:#3E3E3E;
+border: none;
+}
+
+ .logo:hover{
+    color: rgb(122, 240, 4)!important
+}
+.nav-link{
+    color: #191919 !important;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.carousel-item h5{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 58px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.carousel-item p{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+}
+
+.Button{
+background: #FFFFFF;
+border-radius: 5px;
+width: 232px;
+height: 44px;
+border: none;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+color: #3F87F5;
+}
+.carousel-control-prev-icon{
+    /* background: #9B9B9B; */
+    color: #d7d6d6;
+    /* background: #9B9B9B; */
+
+}
+
+.SecondImage{
+width:500px; 
+height: 364px;
+background: #C4C4C4;
+border-radius: 5px;
+}
+
+.Seconddiv h1{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 38px;
+line-height: 60px;
+}
+
+.Seconddiv p{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 28px;
+
+ color: #6C6C6C
+}
+
+.SecondButton{
+width: 230px;
+height: 44px;
+background: #3F87F5;
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+border: none;
+color: #FFFFFF;
+}
+
+.CardButton{
+width:207px;
+height:45px;
+background: #F496D1;
+
+border-radius:10px ;
+border: none;
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+color:#3F87F5
+}
+
+
+.Card{
+    width: 232px; 
+    height: 400px;
+    
+}
+.Card p{
+    color: #848199;
+}
+
+.card2{
+
+   position:relative;
+   width:250px;
+   height: 480px;
+   bottom: 88px;
+   right: 15px;
+   background: #3F87F5;
+   box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+   border-radius: 26px;
+}
+
+.card2 h3{
+margin-top: 30px; 
+margin-left: 1rem;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 33px;
+color: #FFFFFF;
+}
+
+.card2 p{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+color: #FFFFFF;
+margin-left: 1rem;
+
+}
+
+.card2 i{
+    color:#8bb9ff;
+}
+
+.Main{
+    margin-bottom: 200px;
+    margin-top: 100px;
+}
+
+@media (max-width: 576px) { 
+    .SecondImage{
+        width:350px; 
+        height: 364px;
+        background: #C4C4C4;
+        border-radius: 5px;
+        }
+      
+        
+        .card2{
+
+            position:relative;
+            width:300px !important;
+            height: 450px;
+            background:#000;
+            box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25); 
+            border-radius: 26px;
+            margin-bottom: 60px;
+            bottom: 0px;
+            right: 0px;
+            margin-top: 0px; 
+          margin-left: 0rem;
+         }
+
+
+
+         .Card{
+            width: 300px !important; 
+            height: 400px;
+            
+        }
+ }
